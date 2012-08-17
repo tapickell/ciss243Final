@@ -6,6 +6,6 @@ using namespace System;
 
 int main(array<System::String ^> ^args)
 {
-    Console::WriteLine(L"Testing GitHub / Pivotal integration");
+    Console::WriteLine(L"Testing GitHub / Pivotal integration again");
     return 0;
 }
