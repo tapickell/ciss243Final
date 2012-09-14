@@ -1,2 +1,2 @@
-item# 	name		whole$	onHand#	  max#	  vendor		order#	retail$    dept
+item#    name    whole$    onHand#    max#    vendor    order#    retail$    dept
 ---------------------------------------------------------------------------------------
