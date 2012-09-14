@@ -5,4 +5,16 @@
 
 #pragma once
 
+//extra includes go in this file
+
+#include <stdio.h>
+#include <iostream>
+#include <algorithm>
+#include <stdlib.h>
+#include <fstream>
+#include <string.h>
+#include <string>
+#include <vector>
+#include <time.h>
+
 // TODO: reference additional headers your program requires here
