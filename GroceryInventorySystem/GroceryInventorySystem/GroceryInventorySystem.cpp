@@ -16,6 +16,7 @@ using namespace std;
 
 //declarations go here.
 void displayItems(vector<string> &stringsToDisplay);
+int searchFor(vector<string> &myStack);
 
 
 int main(array<System::String ^> ^args)
@@ -28,6 +29,14 @@ int main(array<System::String ^> ^args)
     return 0;
 }
 
+	/*Todd ********************V demonstration method V************* */
+	//returns an int and takes in no parameters
+	//demonstrates adding a method into a group project
+	
+
+
+
+	/*Todd ********************^ demonstration method ^************* */
 
 
 	/*McKinley ********************V displayMenu method V************* */
@@ -69,7 +78,7 @@ int main(array<System::String ^> ^args)
 	//returns void and takes in no params
 	//creates file handler to data file
 	//prompts user for field input
-	//writes vetor<string> out to file
+	//writes vector<string> out to file
 
 
 	/*unassigned ********************^ add method ^************* */
