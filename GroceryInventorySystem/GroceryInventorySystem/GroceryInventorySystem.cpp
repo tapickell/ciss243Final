@@ -1,6 +1,6 @@
 // GroceryInventorySystem.cpp : main project file.
 
-#include "stdafx.h" //extra includes go in this file
+#include "stdafx.h" //extra includes go in this file   <-----########
 #include "fileHandler.h"
 #include "item.h"
 
@@ -14,7 +14,7 @@
 using namespace System;
 using namespace std;
 
-//declarations go here.
+/*declarations below go here. *********************/
 void displayItems(vector<string> &stringsToDisplay);
 int searchFor(vector<string> &myStack);
 
@@ -22,69 +22,72 @@ int searchFor(vector<string> &myStack);
 int main(array<System::String ^> ^args)
 {
 
-
+    /* we are not putting anything into here till iteration 2 */
 
 
     system("PAUSE");
     return 0;
 }
 
-	/*Todd ********************V demonstration method V************* */
+/* *************  _-_--_--_--_V    FILL IN METHODS BELOW HERE   V _-_--_--_--_  ************** */
+
+
+	/*Todd ********************V demonstration method V************* DATE */
 	//returns an int and takes in no parameters
 	//demonstrates adding a method into a group project
 	
 
 
 
-	/*Todd ********************^ demonstration method ^************* */
+	/*Todd ********************^ demonstration method ^************* DATE */
 
 
-	/*McKinley ********************V displayMenu method V************* */
+	/*McKinley ********************V displayMenu method V************* DATE */
 	//returns an int and takes in no parameters
 	//displays the main menu and gets users choice as an int and returns it to the calling function
 	//this can use the display file method and the menu.pkl file
 
 
 
-	/*McKinley ********************^ displayMenu method ^************* */
+	/*McKinley ********************^ displayMenu method ^************* DATE */
 
 
-	/*Jody ********************V  handleMenuChoice method  V************* */
+	/*Jody ********************V  handleMenuChoice method  V************* DATE */
 	//returns void and takes in an int
 	//calls method according to int passed in
 
 
-	/*Jody ********************^  handleMenuChoice method  ^************* */
+	/*Jody ********************^  handleMenuChoice method  ^************* DATE */
 
 
-	/*Elizabeth ********************V stringsToItems method V************* */
+	/*Elizabeth ********************V stringsToItems method V************* DATE */
 	//returns a vector<item> and takes in a vector<string>
 	//converts params to proper format before calling the constructor passing in the formated params to create items.
 	//pushes newly created items onto vector before returning
 
 
-	/*Elizabeth ********************^ stringsToItems method ^************* */
+	/*Elizabeth ********************^ stringsToItems method ^************* DATE */
 
 
-	/*Elizabeth ********************V itemsToStrings method V************* */
+	/*Elizabeth ********************V itemsToStrings method V************* DATE */
 	//returns a vector<string> and takes in a vector<item>
 	//calls toString on each item in vector and pushes that onto vector of strings to be returned
 
 
-	/*Elizabeth ********************^ itemsToStrings method ^************* */
+	/*Elizabeth ********************^ itemsToStrings method ^************* DATE */
 
 
-	/*unassigned ********************V add method V************* */
+	/*unassigned ********************V add method V************* DATE */
 	//returns void and takes in no params
 	//creates file handler to data file
 	//prompts user for field input
 	//writes vector<string> out to file
 
 
-	/*unassigned ********************^ add method ^************* */
+	/*unassigned ********************^ add method ^************* DATE */
 
 
-	/*unassigned **************V   editItems method  V *********** */
+	/*unassigned **************V   editItems method  V *********** DATE */
 	//returns void and takes in no params
 	//this method will call search to get item number to edit
 	//then display item to edit
@@ -92,10 +95,10 @@ int main(array<System::String ^> ^args)
 	//write changes to file
 
 
-	/*unassigned **************^   editItems method   ^*********** */
+	/*unassigned **************^   editItems method   ^*********** DATE */
 
 
-	/*Leah **************V   displayItems method   V*********** */ 
+	/*Leah **************V   displayItems method   V*********** DATE */ 
 	//returns void and takes in no params
 	//this is a wrapper method that calls displayFile
 	//passing a header fileHandler then calls th method again 
@@ -103,10 +106,10 @@ int main(array<System::String ^> ^args)
 
 
 
-	/*Leah **************^   displayItems method   ^*********** */ 
+	/*Leah **************^   displayItems method   ^*********** DATE */ 
 
 
-	/*Leah **************V   displayFile method   V*********** */ 
+	/*Leah **************V   displayFile method   V*********** DATE */ 
 	//returns void and takes in a vector<string>
 	//used to display all files in program
 	//can be passed a fileHandler instance calling getFile() method
@@ -117,11 +120,11 @@ void displayFile(vector<string> &stringsToDisplay)
 }
 
 
-	/*Leah **************^   displayFile method   ^*********** */ 
+	/*Leah **************^   displayFile method   ^*********** DATE */ 
 
 
 
-	/*Nik **************V   removeItems method   V*********** */
+	/*Nik **************V   removeItems method   V*********** DATE */
 	//returns void and takes in no params
 	//creates a file handler to the data file
 	//calls search method and passes in vector<string> to get location of item in vector
@@ -133,7 +136,7 @@ void displayFile(vector<string> &stringsToDisplay)
 
 
 
-	/*Nik **************^   removeItems method   ^*********** */
+	/*Nik **************^   removeItems method   ^*********** DATE */
 
 
 	/*Todd **************V   search method   V*********** 9/14/12 */
