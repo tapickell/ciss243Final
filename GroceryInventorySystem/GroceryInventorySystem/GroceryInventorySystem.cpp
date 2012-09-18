@@ -1,6 +1,6 @@
 // GroceryInventorySystem.cpp : main project file.
 
-#include "stdafx.h" //extra includes go in this file   <-----########
+#include "stdafx.h" //extra includes go in this file   <---#@#@#@#@
 #include "fileHandler.h"
 #include "item.h"
 
