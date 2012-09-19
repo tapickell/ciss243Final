@@ -148,9 +148,15 @@ void handleMenuChoice(int choice)
 	//can be passed a fileHandler instance calling getFile() method
 void displayFile(vector<string> &stringsToDisplay)
 {
+	vector<string> :: iterator i;		// declares the iterator needed to work with the vector
 
+	// This for loop steps through the items that are stored in the vector and displays them.
+	for (vector<string>:: iterator i = stringsToDisplay.begin(); i != stringsToDisplay.end(); ++i)
+	{
+		cout << *n << endl;
+	}
 
-}
+}// end method
 
 
 	/*Leah **************^   displayFile method   ^*********** DATE */ 
