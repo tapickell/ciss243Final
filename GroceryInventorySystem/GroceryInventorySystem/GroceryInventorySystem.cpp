@@ -17,13 +17,13 @@ using namespace std;
 /*declarations below go here. *********************/
 void displayItems(vector<string> &stringsToDisplay);
 int searchFor(vector<string> &myStack);
+int demonstration();
 
 
 int main(array<System::String ^> ^args)
 {
 
     /* we are not putting anything into here till iteration 2 */
-    /* WINDOWS IS PISSING ME OFF!!!! */
 
 
     system("PAUSE");
@@ -36,10 +36,15 @@ int main(array<System::String ^> ^args)
 	/*Todd ********************V demonstration method V************* DATE */
 	//returns an int and takes in no parameters
 	//demonstrates adding a method into a group project
-	
-
-
-
+int demonstration()
+{
+	fileHandler myFile = fileHandler(HELP);
+	vector<string> myStrings = myFile.getFile();
+	myFile.putFile(myStrings);
+	displayMenu();
+	int i = 5;
+	return i;
+}
 	/*Todd ********************^ demonstration method ^************* DATE */
 
 
