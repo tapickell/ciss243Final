@@ -23,6 +23,7 @@ int main(array<System::String ^> ^args)
 {
 
     /* we are not putting anything into here till iteration 2 */
+    /* WINDOWS IS PISSING ME OFF!!!! */
 
 
     system("PAUSE");
