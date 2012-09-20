@@ -40,6 +40,10 @@ int demonstration()
 {
 	fileHandler myFile = fileHandler(HELP);
 	vector<string> myStrings = myFile.getFile();
+	displayFile(myFile.getFile());
+	
+	
+	
 	myFile.putFile(myStrings);
 	displayMenu();
 	int i = 5;
